@@ -2,7 +2,7 @@ package towerofhanoi;
 
 public class Tower {
  public static void main(String[] args) {
-TowersOfHanoi(10,'A','C','B');
+TowersOfHanoi(20,'A','C','B');
  
 }
  
