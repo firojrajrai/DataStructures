@@ -23,7 +23,4 @@ public CLLNode getNext() {
 public void setNext(CLLNode next) {
 	this.next = next;
 }
-
-
-
 }
