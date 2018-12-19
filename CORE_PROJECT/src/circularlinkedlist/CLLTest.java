@@ -23,6 +23,12 @@ public static void main(String[] args) {
 	System.out.println("CLL: "+cll);
 	
 	System.out.println("\n\nPEEK HEAD: "+cll.peek());
-	System.out.println("\n\nPEEK TAIL: "+cll.tailPeek());
+	System.out.println("\n\nPEEK TAIL: "+cll.tailPeek()); 
+	
+	System.out.println("\n\nREMOVE FROM HEAD: ");
+	int data=cll.removeFromHead();
+	System.out.println("REMOVED DATA: "+data);
+	System.out.println("LENGTH: "+cll.length);
+	System.out.println("CLL: "+cll);
 }
 }
